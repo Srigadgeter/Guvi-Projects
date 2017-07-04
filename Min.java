@@ -24,7 +24,7 @@ public class Min {
 		
 		for(Integer ii : ts)
 			str += ii.toString();
-		System.out.println(str);
+		//System.out.println(str);
 		
 		System.out.println("Enter the number of digits want to delete : ");
 		d = Integer.parseInt(bb.readLine());
