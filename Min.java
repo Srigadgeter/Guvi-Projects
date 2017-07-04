@@ -11,6 +11,7 @@ public class Min {
 		
 		System.out.println("Enter the number : ");
 		n = Integer.parseInt(bb.readLine());
+		n = Math.abs(n);
 		
 		for(i=0;n>9;i++){
 				sub = n%10;
@@ -23,7 +24,7 @@ public class Min {
 		
 		for(Integer ii : ts)
 			str += ii.toString();
-		//System.out.println(str);
+		System.out.println(str);
 		
 		System.out.println("Enter the number of digits want to delete : ");
 		d = Integer.parseInt(bb.readLine());
