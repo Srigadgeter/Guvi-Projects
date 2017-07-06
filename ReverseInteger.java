@@ -8,7 +8,7 @@ public class ReverseInteger {
 		String s = String.valueOf(Integer.parseInt(bb.readLine()));
 		StringBuffer ss = new StringBuffer(s);
 		ss.reverse();
-		System.out.println("Reversed string of \""+s+"\" is \""+ss+"\"");
+		System.out.println("Reversed integer of \""+s+"\" is \""+ss+"\"");
 	}
 
 }
