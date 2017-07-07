@@ -33,6 +33,6 @@ public class Happy {
 		if(aa == 1)
 			return String.valueOf(value)+" is a happy number :)";
 		else
-			return String.valueOf(value)+" is not a happy number :)";
+			return String.valueOf(value)+" is not a happy number :(";
 	}
 }
