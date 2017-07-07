@@ -10,7 +10,7 @@ public class Holiday {
 	}
 
 	private static boolean dayy(String day) {
-		return day.equalsIgnoreCase("sunday");
+		return !day.equalsIgnoreCase("sunday");
 	}
 	
 }
